@@ -12,6 +12,9 @@
             $this->credito = $vrcredito;    
         }
 
-        
+        public function getCredito(){
+            return $this->credito;
+        }
+
     }
 ?>
