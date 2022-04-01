@@ -2,7 +2,7 @@
 require_once("../../Template/templateFormulario.php");
 ?>
 <div class="formulario">
-    <form action="" method="">
+    <form action="../Controlador/add.php" method="POST">
         <div class="mb-3">
             <label>Nombres completos</label>
             <input type="text" name="nombre" class="form-control">
@@ -15,7 +15,11 @@ require_once("../../Template/templateFormulario.php");
             <label>Telefono</label>
             <input type="text" name="telefono" placeholder="Celular.." class="form-control">
         </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input type="password" name="password" class="form-control">
+        </div>
 
-        <button type="submit" class="btn btn-success">Registrar</button>
+        <button type="submit" name="btn_enviar" class="btn btn-success">Registrar</button>
     </form>
 </div>

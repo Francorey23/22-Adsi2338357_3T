@@ -16,8 +16,8 @@
         </ul>
 
         <div class="text-end">
-          <button type="button" class="btn btn-warning" _msthash="1718041" _msttexthash="176449">Registrar</button>  
-          <button type="button" class="btn btn-outline-light me-2" _msthash="1717859" _msttexthash="264433">Iniciar sesión</button>
+          <a href="pasajero/Vista/add.php"> <button type="button" class="btn btn-warning" _msthash="1718041" _msttexthash="176449"><i class="bi bi-person-plus-fill"> Registrar </i></button></a>  
+          <a href="pasajero/Vista/login.php"><button type="button" class="btn btn-outline-light me-2" _msthash="1717859" _msttexthash="264433">Iniciar sesión</button></a>
         </div>
       </div>
     </div>
